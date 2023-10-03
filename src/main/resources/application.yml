@@ -1,2 +1,13 @@
 server:
   port: 9090
+
+
+
+app:
+  auth:
+    jwtSecret: rafarafa
+    jwtExpirationMs: 300000
+    jwtRefreshExpirationMs: 8640000
+
+  cors:
+    allowedOrigins: http://localhost:3000
